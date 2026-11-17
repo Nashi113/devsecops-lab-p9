@@ -1,0 +1,34 @@
+# Credential dan config rahasia
+.env
+*.env
+.env.*
+
+# Git
+.git
+.gitignore
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# File test
+tests/
+*.test.py
+
+# Dokumentasi
+docs/
+README.md
+Dockerfile*
+
+# Tambahan lab ini
+trivy-*
+requirements-old.txt
+requirements-new.txt
+requirements-lab1.txt
+
